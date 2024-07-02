@@ -35,6 +35,7 @@ const Form: React.FC<FormProps> = ({ adicionarProduto }) => {
           placeholder="Nome"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
+          required
         />
         <input
           type="text"
@@ -47,6 +48,7 @@ const Form: React.FC<FormProps> = ({ adicionarProduto }) => {
           placeholder="Preço"
           value={preco}
           onChange={(e) => setPreco(Number(e.target.value))}
+          required
         />
         <select
           value={disponivel}

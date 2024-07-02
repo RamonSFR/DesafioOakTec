@@ -19,13 +19,15 @@ const Produtos = () => {
     setProdutos([...produtos, produto])
   }
 
+  const produtosOrdenados = [...produtos].sort((a, b) => a.preco - b.preco)
+
   return (
     <section>
       <Titulo fontSize={24}>Produtos</Titulo>
       <Paragrafo>Adicionar novo produto:</Paragrafo>
       <Form adicionarProduto={adicionarProduto} />
       <Lista>
-        {produtos.map((produto, index) => (
+        {produtosOrdenados.map((produto, index) => (
           <li key={index}><Produto produto={produto} /></li>
         ))}
       </Lista>
