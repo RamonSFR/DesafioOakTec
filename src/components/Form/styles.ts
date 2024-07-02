@@ -11,10 +11,10 @@ margin-bottom: 8px;
 
 export const Formulario = styled.form`
 display: grid;
-grid-template-columns: 1fr 2fr 1fr 1fr;
+grid-template-columns: 3fr 3fr 3fr 1fr 3fr;
 gap: 16px;
 
-input {
+input, select {
   width: 100%;
   padding: 8px;
   height: 30px;
@@ -30,7 +30,7 @@ input {
   grid-template-columns: 1fr;
   gap: 0px;
 
-  input {
+  input,select {
     border-radius: 0;
   }
 
