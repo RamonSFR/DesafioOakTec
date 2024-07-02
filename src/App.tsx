@@ -1,3 +1,4 @@
+import Header from "./containers/Header"
 import { Container, EstiloGlobal } from "./styles"
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
       <EstiloGlobal />
       <Container>
-        <h1>Hello World</h1>
+        <Header />
       </Container>
     </>
   )
