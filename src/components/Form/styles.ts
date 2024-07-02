@@ -13,6 +13,7 @@ export const Formulario = styled.form`
 display: grid;
 grid-template-columns: 3fr 3fr 3fr 1fr 3fr;
 gap: 16px;
+margin-bottom: 64px;
 
 input, select {
   width: 100%;

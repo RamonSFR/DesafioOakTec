@@ -6,6 +6,7 @@ export const EstiloGlobal = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style: none;
 }
 `
 
