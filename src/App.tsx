@@ -1,4 +1,5 @@
 import Header from "./containers/Header"
+import Produtos from "./containers/Produtos"
 import { Container, EstiloGlobal } from "./styles"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <EstiloGlobal />
       <Container>
         <Header />
+        <Produtos />
       </Container>
     </>
   )

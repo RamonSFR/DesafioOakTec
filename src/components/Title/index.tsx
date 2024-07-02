@@ -1,4 +1,3 @@
-import { Children } from "react"
 import { Titulo } from "./styles"
 
 export type Props = {
@@ -7,7 +6,7 @@ export type Props = {
 }
 
 const Title = (props: Props) => {
-  <Titulo>{ Children }</Titulo>
+  <Titulo>{ props.children }</Titulo>
 }
 
 export default Title
