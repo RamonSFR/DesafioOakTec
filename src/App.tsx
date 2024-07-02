@@ -1,8 +1,12 @@
+import { Container, EstiloGlobal } from "./styles"
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <EstiloGlobal />
+      <Container>
+        <h1>Hello World</h1>
+      </Container>
     </>
   )
 }
